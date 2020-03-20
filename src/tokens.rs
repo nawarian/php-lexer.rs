@@ -10,6 +10,13 @@ pub enum Token {
     // Operations
     Assignment,
 
+    // Operators
+    Plus,
+    Minus,
+    Slash,
+    Asterisk,
+    Percentage,
+
     // Delimiters
     Semicolon,
     Whitespace,
